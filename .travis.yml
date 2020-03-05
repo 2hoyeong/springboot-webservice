@@ -19,7 +19,7 @@ before_install:
   - chmod +x gradlew
 
 before_deploy:
-  - zip -r hoyoung-springboot-webservice
+  - zip -r hoyoung-springboot-webservice *
   - mkdir -p deploy
   - mv hoyoung-springboot-webservice.zip deploy/hoyoung-springboot-webservice.zip
 
